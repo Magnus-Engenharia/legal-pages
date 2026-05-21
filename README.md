@@ -12,6 +12,10 @@ Recommended production URLs:
 - `https://magnusengineering.tech/legal/recibo-facil/terms/`
 - `https://magnusengineering.tech/legal/recibo-facil/support/`
 - `https://magnusengineering.tech/legal/recibo-facil/delete-account/`
+- `https://magnusengineering.tech/legal/nulev/privacy/`
+- `https://magnusengineering.tech/legal/nulev/terms/`
+- `https://magnusengineering.tech/legal/nulev/support/`
+- `https://magnusengineering.tech/legal/nulev/delete-account/`
 
 Portuguese Brazilian is the default language for legal documents. English and Spanish are available at:
 
@@ -28,6 +32,13 @@ Short redirects are included for:
 - `/recibo-facil/terms`
 - `/recibo-facil/support`
 - `/recibo-facil/delete-account`
+- `/nulev/privacy`
+- `/nulev/terms`
+- `/nulev/support`
+- `/nulev/delete-account`
+- `/nulev-mobile/privacy`
+- `/nulev-mobile/support`
+- `/nulev-mobile/delete-account`
 
 ## Cloudflare Pages
 

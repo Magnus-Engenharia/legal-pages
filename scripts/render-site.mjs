@@ -403,6 +403,300 @@ const docs = {
   },
 };
 
+const nulevDocs = {
+  privacy: {
+    pt: `
+      <p class="lead">Esta Política de Privacidade explica como o NuLev trata dados pessoais e dados pessoais sensíveis de saúde para operar a plataforma de acompanhamento nutricional usada por nutricionistas, equipes de clínicas e pacientes.</p>
+      ${stamp("pt", "privacy")}
+      <h2>Operador e contato</h2>
+      <p>NuLev é a plataforma descrita nesta política. Para dúvidas, suporte, solicitações LGPD ou exclusão de conta, entre em contato pelo e-mail <a href="mailto:suporte@nulev.com.br">suporte@nulev.com.br</a>.</p>
+      <h2>Dados tratados</h2>
+      <ul>
+        <li>Dados de conta e contato: nome, e-mail, telefone, identificadores de conta e credenciais.</li>
+        <li>Dados de saúde e acompanhamento: planos alimentares, medidas antropométricas, metas, consultas, respostas de questionários, observações clínicas, adesão alimentar e fotos de progresso escolhidas pelo paciente.</li>
+        <li>Dados técnicos: tokens de notificação, identificador do dispositivo, modelo, sistema operacional, versão do app, idioma, fuso horário, logs de segurança e eventos operacionais necessários para operar o serviço.</li>
+        <li>Dados de cobrança e administração quando necessários para assinatura, suporte, auditoria e operação da clínica.</li>
+      </ul>
+      <h2>Finalidades</h2>
+      <p>Usamos dados para autenticar usuários, administrar clínicas, disponibilizar planos e consultas, registrar progresso, enviar lembretes e notificações, responder solicitações de titulares, manter segurança, cumprir obrigações legais e melhorar a confiabilidade do serviço.</p>
+      <h2>Bases legais</h2>
+      <p>Dados pessoais comuns podem ser tratados para execução de contrato, cumprimento de obrigação legal, legítimo interesse de segurança e consentimento quando aplicável. Dados pessoais sensíveis de saúde são tratados com consentimento específico do paciente ou para tutela da saúde por profissional habilitado, conforme a LGPD.</p>
+      <h2>Compartilhamento</h2>
+      <p>Dados podem ser compartilhados com a equipe de nutrição responsável pelo atendimento, operadores de hospedagem, armazenamento, e-mail, notificações, pagamentos, suporte e monitoramento de erros. O NuLev não vende dados pessoais e não usa rastreamento publicitário entre apps ou sites.</p>
+      <h2>Fotos e permissões</h2>
+      <p>O app mobile pede acesso à biblioteca de fotos somente quando o paciente escolhe enviar uma foto de progresso ou imagem em resposta de acompanhamento. A imagem selecionada é enviada ao backend NuLev para o fluxo de cuidado. A versão mobile atual não usa câmera, microfone, contatos, localização, ID de publicidade ou rastreamento entre apps.</p>
+      <h2>Segurança</h2>
+      <p>A comunicação de produção usa HTTPS, sessões exigem autenticação e tokens são armazenados em armazenamento seguro do dispositivo quando disponível. Nenhuma medida é absoluta, mas o serviço é projetado para limitar acesso a usuários autorizados e operadores necessários.</p>
+      <h2>Retenção e exclusão</h2>
+      <p>Dados de conta são mantidos durante a vigência da conta e pelo período necessário para cumprir obrigações legais, fiscais, profissionais, contratuais e de segurança. Dados clínicos podem ser preservados pelo período exigido pelas normas profissionais e legais aplicáveis, com anonimização quando a exclusão direta não for possível.</p>
+      <h2>Direitos do titular</h2>
+      <p>O titular pode solicitar confirmação de tratamento, acesso, correção, portabilidade, informação sobre compartilhamento, revogação de consentimento, anonimização, bloqueio ou eliminação quando cabível. Solicitações podem ser feitas pelo app, pelo painel autenticado ou por <a href="mailto:suporte@nulev.com.br">suporte@nulev.com.br</a>.</p>
+      <h2>Crianças e adolescentes</h2>
+      <p>Quando houver atendimento de menores de idade, o tratamento deve observar o melhor interesse do menor e exigir autorização do responsável quando aplicável.</p>
+      <h2>Aviso de saúde</h2>
+      <p>O NuLev apoia acompanhamento nutricional e bem-estar, mas não é dispositivo médico, não diagnostica, trata, cura ou previne condições médicas e não substitui atendimento médico ou serviços de emergência.</p>
+    `,
+    en: `
+      <p class="lead">This Privacy Policy explains how NuLev accesses, collects, uses, shares, retains, and deletes personal and sensitive health data for its nutrition follow-up platform.</p>
+      ${stamp("en", "privacy")}
+      <h2>Developer and privacy contact</h2>
+      <p>NuLev is the platform described in this policy. For privacy requests, account deletion, questions, or support, contact <a href="mailto:suporte@nulev.com.br">suporte@nulev.com.br</a>.</p>
+      <h2>Data we collect</h2>
+      <ul>
+        <li>Account and contact data, such as name, email address, phone number, account ID, and authentication data.</li>
+        <li>Health and nutrition follow-up data, such as meal plans, meals, food preferences, restrictions, adherence logs, measurements, progress notes, consultation status, reminders, questionnaire answers, and messages.</li>
+        <li>Photos selected by the patient for progress tracking or follow-up answers.</li>
+        <li>Device and app data, such as push notification token, device identifier, device model, operating system, app version, language, timezone, and basic app usage events needed to operate the service.</li>
+      </ul>
+      <h2>How we use data</h2>
+      <p>We use data to provide secure account access, display nutrition plans assigned by a professional or clinic, track progress and follow-up responses, send reminders and notifications, provide support, maintain security, debug the service, administer the platform, and meet legal, regulatory, and professional record obligations where applicable.</p>
+      <h2>Sharing</h2>
+      <p>Data may be shared with the nutrition professional, clinic, or care team responsible for the patient's follow-up, service providers used to host the backend, deliver notifications, provide support, monitor reliability, or secure the application, and authorities or third parties when required by law or to protect safety and security. NuLev does not sell personal data and does not track users for advertising across apps or websites.</p>
+      <h2>Photos and permissions</h2>
+      <p>The mobile app asks for photo library access only when the patient chooses to upload a progress photo or image answer. The selected image is sent to the NuLev backend for the care workflow. The current mobile app does not use device location, contacts, microphone, camera capture, advertising ID, or cross-app advertising tracking.</p>
+      <h2>Security</h2>
+      <p>Production network communication uses HTTPS. Session tokens are stored in secure device storage when available. Access to patient data requires authentication. No measure can guarantee absolute security, but the service is designed to limit access to authorized users and providers.</p>
+      <h2>Retention and deletion</h2>
+      <p>Account and contact data is retained while the account is active and for up to 30 days after an authenticated deletion request before direct identifiers are removed, unless legal, contractual, security, or professional record obligations require a longer period. Clinical and nutrition records may be retained for the professional or legal record period applicable to the responsible clinic and then deleted or anonymized.</p>
+      <h2>User rights</h2>
+      <p>Patients and platform users can request access, correction, export, or deletion by contacting <a href="mailto:suporte@nulev.com.br">suporte@nulev.com.br</a>, using the authenticated in-app account deletion request flow, or visiting the account deletion page.</p>
+      <h2>Children</h2>
+      <p>NuLev is intended for patients under the care of a participating professional or clinic. If the app is used by a minor, the responsible provider or guardian must ensure appropriate authorization under applicable law.</p>
+      <h2>Health disclaimer</h2>
+      <p>NuLev supports nutrition follow-up and wellness management. It is not a medical device and does not diagnose, treat, cure, or prevent medical conditions. It does not replace medical care or emergency services.</p>
+    `,
+    es: `
+      <p class="lead">Esta Política de Privacidad explica cómo NuLev accede, recopila, utiliza, comparte, conserva y elimina datos personales y datos sensibles de salud para su plataforma de seguimiento nutricional.</p>
+      ${stamp("es", "privacy")}
+      <h2>Operador y contacto</h2>
+      <p>NuLev es la plataforma descrita en esta política. Para solicitudes de privacidad, eliminación de cuenta, preguntas o soporte, contacta a <a href="mailto:suporte@nulev.com.br">suporte@nulev.com.br</a>.</p>
+      <h2>Datos que tratamos</h2>
+      <ul>
+        <li>Datos de cuenta y contacto, como nombre, correo electrónico, teléfono, identificadores de cuenta y credenciales.</li>
+        <li>Datos de salud y seguimiento nutricional, como planes alimentarios, comidas, preferencias, restricciones, registros de adherencia, medidas, notas de progreso, consultas, recordatorios, respuestas de cuestionarios y mensajes.</li>
+        <li>Fotos seleccionadas por el paciente para seguimiento de progreso o respuestas de acompañamiento.</li>
+        <li>Datos técnicos del dispositivo y la app, como token de notificaciones, identificador del dispositivo, modelo, sistema operativo, versión de la app, idioma, zona horaria y eventos operativos necesarios para prestar el servicio.</li>
+      </ul>
+      <h2>Finalidades</h2>
+      <p>Usamos datos para ofrecer acceso seguro, mostrar planes y orientaciones asignadas por un profesional o clínica, registrar progreso y respuestas, enviar recordatorios, prestar soporte, mantener seguridad, depurar fallas, administrar el servicio y cumplir obligaciones legales, regulatorias y profesionales cuando corresponda.</p>
+      <h2>Compartición</h2>
+      <p>Los datos pueden compartirse con el profesional de nutrición, clínica o equipo responsable del seguimiento, proveedores de hospedaje, notificaciones, soporte, monitoreo y seguridad, y autoridades o terceros cuando lo exija la ley o sea necesario para proteger seguridad. NuLev no vende datos personales ni rastrea usuarios para publicidad entre apps o sitios.</p>
+      <h2>Fotos y permisos</h2>
+      <p>La app móvil solicita acceso a la biblioteca de fotos solo cuando el paciente elige subir una foto de progreso o imagen de respuesta. La imagen seleccionada se envía al backend NuLev para el flujo de cuidado. La versión móvil actual no usa ubicación, contactos, micrófono, cámara, ID de publicidad ni rastreo publicitario entre apps.</p>
+      <h2>Seguridad</h2>
+      <p>La comunicación de producción usa HTTPS, las sesiones requieren autenticación y los tokens se almacenan en almacenamiento seguro del dispositivo cuando está disponible. Ninguna medida es absoluta, pero el servicio está diseñado para limitar el acceso a usuarios y operadores autorizados.</p>
+      <h2>Retención y eliminación</h2>
+      <p>Los datos de cuenta se mantienen mientras la cuenta esté activa y hasta 30 días después de una solicitud autenticada de eliminación antes de retirar identificadores directos, salvo que una obligación legal, contractual, de seguridad o profesional exija un período mayor. Los registros clínicos y nutricionales pueden conservarse por el período profesional o legal aplicable a la clínica responsable y luego eliminarse o anonimizarse.</p>
+      <h2>Derechos del usuario</h2>
+      <p>Pacientes y usuarios pueden solicitar acceso, corrección, exportación o eliminación contactando <a href="mailto:suporte@nulev.com.br">suporte@nulev.com.br</a>, usando el flujo autenticado de eliminación en la app o visitando la página de eliminación de cuenta.</p>
+      <h2>Niños y adolescentes</h2>
+      <p>NuLev está destinado a pacientes bajo el cuidado de un profesional o clínica participante. Si lo utiliza un menor, el proveedor o responsable debe asegurar la autorización apropiada conforme a la ley aplicable.</p>
+      <h2>Aviso de salud</h2>
+      <p>NuLev apoya el seguimiento nutricional y bienestar. No es un dispositivo médico, no diagnostica, trata, cura ni previene condiciones médicas y no sustituye atención médica ni servicios de emergencia.</p>
+    `,
+  },
+  terms: {
+    pt: `
+      <p class="lead">Estes Termos regulam o uso do NuLev, plataforma de apoio ao acompanhamento nutricional usada por nutricionistas, equipes de clínicas e pacientes.</p>
+      ${stamp("pt", "terms")}
+      <h2>Uso da plataforma</h2>
+      <p>Nutricionistas e equipes de clínicas devem usar a plataforma somente para fins profissionais, mantendo informações corretas, acessos individuais e confidencialidade dos dados de pacientes. Pacientes devem usar o app para acompanhar orientações, consultas, lembretes, medidas, fotos e questionários relacionados ao atendimento nutricional.</p>
+      <h2>Responsabilidades clínicas</h2>
+      <p>O NuLev apoia rotinas de acompanhamento e não substitui avaliação profissional, diagnóstico, atendimento médico, serviços de emergência ou decisão clínica individualizada.</p>
+      <h2>Conta e segurança</h2>
+      <p>Cada usuário é responsável por proteger suas credenciais, manter seus dados atualizados e informar acessos indevidos ou incidentes suspeitos.</p>
+      <h2>Privacidade</h2>
+      <p>O tratamento de dados pessoais segue a Política de Privacidade vigente. Consentimentos opcionais podem ser revogados nos canais disponibilizados, sem afetar tratamentos exigidos por lei, contrato, segurança ou tutela da saúde quando aplicável.</p>
+      <h2>Disponibilidade e alterações</h2>
+      <p>Podemos alterar, suspender ou descontinuar funcionalidades por motivos técnicos, comerciais, legais ou de segurança. Quando houver mudança relevante nos termos ou na política, o NuLev poderá solicitar novo aceite ou destacar a nova versão nos apps.</p>
+      <h2>Contato</h2>
+      <p>Contato de suporte e privacidade: <a href="mailto:suporte@nulev.com.br">suporte@nulev.com.br</a>.</p>
+    `,
+    en: `
+      <p class="lead">These Terms govern use of NuLev, a nutrition follow-up platform used by nutrition professionals, clinic teams, and patients.</p>
+      ${stamp("en", "terms")}
+      <h2>Platform use</h2>
+      <p>Nutrition professionals and clinic teams must use the platform only for professional purposes, keep information accurate, use individual access credentials, and preserve patient data confidentiality. Patients should use the mobile app to follow guidance, consultations, reminders, measurements, photos, and questionnaires related to their nutrition care.</p>
+      <h2>Clinical responsibilities</h2>
+      <p>NuLev supports follow-up routines and does not replace professional assessment, diagnosis, medical care, emergency services, or individualized clinical decisions.</p>
+      <h2>Account and security</h2>
+      <p>Each user is responsible for protecting credentials, keeping account data updated, and reporting unauthorized access or suspected incidents.</p>
+      <h2>Privacy</h2>
+      <p>Personal data processing follows the current Privacy Policy. Optional consents may be revoked through available channels, without affecting processing required by law, contract, security, or health care where applicable.</p>
+      <h2>Availability and changes</h2>
+      <p>We may change, suspend, or discontinue features for technical, commercial, legal, or security reasons. When relevant changes occur, NuLev may request new acceptance or highlight the new version in the apps.</p>
+      <h2>Contact</h2>
+      <p>Support and privacy contact: <a href="mailto:suporte@nulev.com.br">suporte@nulev.com.br</a>.</p>
+    `,
+    es: `
+      <p class="lead">Estos Términos regulan el uso de NuLev, plataforma de apoyo al seguimiento nutricional usada por profesionales de nutrición, equipos de clínicas y pacientes.</p>
+      ${stamp("es", "terms")}
+      <h2>Uso de la plataforma</h2>
+      <p>Los profesionales y equipos de clínicas deben usar la plataforma solo para fines profesionales, mantener información correcta, usar accesos individuales y preservar la confidencialidad de los datos de pacientes. Los pacientes deben usar la app para acompañar orientaciones, consultas, recordatorios, medidas, fotos y cuestionarios relacionados con su atención nutricional.</p>
+      <h2>Responsabilidades clínicas</h2>
+      <p>NuLev apoya rutinas de seguimiento y no sustituye evaluación profesional, diagnóstico, atención médica, servicios de emergencia ni decisiones clínicas individualizadas.</p>
+      <h2>Cuenta y seguridad</h2>
+      <p>Cada usuario es responsable de proteger sus credenciales, mantener sus datos actualizados e informar accesos indebidos o incidentes sospechosos.</p>
+      <h2>Privacidad</h2>
+      <p>El tratamiento de datos personales sigue la Política de Privacidad vigente. Los consentimientos opcionales pueden revocarse por los canales disponibles, sin afectar tratamientos exigidos por ley, contrato, seguridad o tutela de la salud cuando corresponda.</p>
+      <h2>Disponibilidad y cambios</h2>
+      <p>Podemos cambiar, suspender o discontinuar funcionalidades por motivos técnicos, comerciales, legales o de seguridad. Cuando haya cambios relevantes, NuLev podrá solicitar una nueva aceptación o destacar la nueva versión en las apps.</p>
+      <h2>Contacto</h2>
+      <p>Contacto de soporte y privacidad: <a href="mailto:suporte@nulev.com.br">suporte@nulev.com.br</a>.</p>
+    `,
+  },
+  support: {
+    pt: `
+      <p class="lead">Use esta página para suporte do app NuLev, ajuda de acesso à conta, solicitações de privacidade e feedback geral.</p>
+      ${stamp("pt", "support")}
+      <h2>Contato</h2>
+      <p>E-mail: <a href="mailto:suporte@nulev.com.br">suporte@nulev.com.br</a></p>
+      <h2>Solicitações comuns</h2>
+      <ul>
+        <li>Ajuda para entrar ou ativar uma conta de paciente.</li>
+        <li>Dúvidas sobre planos alimentares, lembretes, consultas, fotos de progresso ou check-ins de acompanhamento.</li>
+        <li>Solicitações de privacidade, incluindo acesso, correção, exportação ou exclusão.</li>
+        <li>Problemas gerais do app, feedback e sugestões.</li>
+      </ul>
+      <h2>Privacidade e exclusão</h2>
+      <p>Política de privacidade: <a href="/legal/nulev/privacy/">https://magnusengineering.tech/legal/nulev/privacy/</a></p>
+      <p>Exclusão de conta: <a href="/legal/nulev/delete-account/">https://magnusengineering.tech/legal/nulev/delete-account/</a></p>
+      <h2>Urgências de saúde</h2>
+      <p>Não use o suporte NuLev para emergências. Para necessidades médicas urgentes, contate serviços locais de emergência ou um profissional de saúde qualificado.</p>
+    `,
+    en: `
+      <p class="lead">Use this page for NuLev app support, account access help, privacy requests, and general feedback.</p>
+      ${stamp("en", "support")}
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:suporte@nulev.com.br">suporte@nulev.com.br</a></p>
+      <h2>Common requests</h2>
+      <ul>
+        <li>Help signing in or activating a patient account.</li>
+        <li>Questions about meal plans, reminders, consultations, progress photos, or follow-up check-ins.</li>
+        <li>Privacy requests, including access, correction, export, or deletion.</li>
+        <li>General app issues, feedback, and feature requests.</li>
+      </ul>
+      <h2>Privacy and deletion</h2>
+      <p>Privacy policy: <a href="/legal/en/nulev/privacy/">https://magnusengineering.tech/legal/en/nulev/privacy/</a></p>
+      <p>Account deletion: <a href="/legal/en/nulev/delete-account/">https://magnusengineering.tech/legal/en/nulev/delete-account/</a></p>
+      <h2>Urgent health matters</h2>
+      <p>Do not use NuLev support for emergencies. For urgent medical needs, contact local emergency services or a qualified health professional.</p>
+    `,
+    es: `
+      <p class="lead">Usa esta página para soporte de la app NuLev, ayuda de acceso a la cuenta, solicitudes de privacidad y comentarios generales.</p>
+      ${stamp("es", "support")}
+      <h2>Contacto</h2>
+      <p>Correo: <a href="mailto:suporte@nulev.com.br">suporte@nulev.com.br</a></p>
+      <h2>Solicitudes comunes</h2>
+      <ul>
+        <li>Ayuda para iniciar sesión o activar una cuenta de paciente.</li>
+        <li>Preguntas sobre planes alimentarios, recordatorios, consultas, fotos de progreso o check-ins de seguimiento.</li>
+        <li>Solicitudes de privacidad, incluyendo acceso, corrección, exportación o eliminación.</li>
+        <li>Problemas generales de la app, comentarios y sugerencias.</li>
+      </ul>
+      <h2>Privacidad y eliminación</h2>
+      <p>Política de privacidad: <a href="/legal/es/nulev/privacy/">https://magnusengineering.tech/legal/es/nulev/privacy/</a></p>
+      <p>Eliminación de cuenta: <a href="/legal/es/nulev/delete-account/">https://magnusengineering.tech/legal/es/nulev/delete-account/</a></p>
+      <h2>Urgencias de salud</h2>
+      <p>No uses el soporte de NuLev para emergencias. Para necesidades médicas urgentes, contacta servicios locales de emergencia o un profesional de salud calificado.</p>
+    `,
+  },
+  "delete-account": {
+    pt: `
+      <p class="lead">O NuLev permite que pacientes solicitem a exclusão da conta do app e dos dados pessoais associados pelo próprio app ou por este recurso público.</p>
+      ${stamp("pt", "delete-account")}
+      <h2>Solicitar exclusão</h2>
+      <p>Para solicitar exclusão fora do app, envie e-mail para <a href="mailto:suporte@nulev.com.br">suporte@nulev.com.br</a> a partir do endereço vinculado à conta de paciente. Inclua nome completo, e-mail da conta, telefone se disponível e a clínica ou profissional de nutrição conectado à conta.</p>
+      <h2>Dados excluídos</h2>
+      <p>Quando a solicitação for verificada, o NuLev excluirá ou anonimizará dados de conta e dados do app quando a exclusão for permitida, incluindo contatos, registros de dispositivo, preferências de lembretes, fotos de progresso, respostas de acompanhamento, medidas, logs de adesão e outros registros do paciente.</p>
+      <h2>Dados que podem ser retidos</h2>
+      <p>Alguns registros podem precisar ser mantidos por obrigações legais, segurança, prevenção de fraude, resolução de disputas, cuidado profissional ou obrigações regulatórias. Quando a retenção for necessária, o NuLev limitará os dados retidos à finalidade aplicável.</p>
+      <h2>Exclusão pelo app</h2>
+      <p>Se ainda tiver acesso ao app mobile, entre na conta e vá para Perfil &gt; Excluir conta e dados para enviar uma solicitação autenticada diretamente pelo NuLev.</p>
+    `,
+    en: `
+      <p class="lead">NuLev lets patients request deletion of their app account and associated personal data from inside the mobile app and from this public web resource.</p>
+      ${stamp("en", "delete-account")}
+      <h2>Request deletion</h2>
+      <p>To request deletion outside the app, email privacy support at <a href="mailto:suporte@nulev.com.br">suporte@nulev.com.br</a> from the address linked to your patient account. Include your full name, account email, phone number if available, and the clinic or nutrition professional connected to your account.</p>
+      <h2>What will be deleted</h2>
+      <p>When your request is verified, NuLev will delete or anonymize account data and associated app data where deletion is permitted, including account contact details, app device registrations, reminder preferences, progress photos, follow-up responses, measurements, adherence logs, and other patient app records.</p>
+      <h2>Data that may be retained</h2>
+      <p>Some records may need to be retained for legal, security, fraud prevention, dispute resolution, professional care, or regulatory obligations. If retention is required, NuLev will limit retained data to the purpose that requires retention.</p>
+      <h2>In-app deletion path</h2>
+      <p>If you can still access the mobile app, sign in and go to Profile &gt; Delete account and data to send an authenticated deletion request directly from NuLev.</p>
+    `,
+    es: `
+      <p class="lead">NuLev permite que pacientes soliciten la eliminación de su cuenta de la app y de los datos personales asociados desde la app móvil y desde este recurso público.</p>
+      ${stamp("es", "delete-account")}
+      <h2>Solicitar eliminación</h2>
+      <p>Para solicitar la eliminación fuera de la app, escribe a <a href="mailto:suporte@nulev.com.br">suporte@nulev.com.br</a> desde el correo vinculado a tu cuenta de paciente. Incluye nombre completo, correo de la cuenta, teléfono si está disponible y la clínica o profesional de nutrición conectado a la cuenta.</p>
+      <h2>Datos eliminados</h2>
+      <p>Cuando la solicitud sea verificada, NuLev eliminará o anonimizará datos de cuenta y datos asociados de la app cuando la eliminación sea permitida, incluyendo contactos, registros de dispositivo, preferencias de recordatorios, fotos de progreso, respuestas de seguimiento, medidas, registros de adherencia y otros registros del paciente.</p>
+      <h2>Datos que pueden conservarse</h2>
+      <p>Algunos registros pueden necesitar conservarse por obligaciones legales, seguridad, prevención de fraude, resolución de disputas, cuidado profesional u obligaciones regulatorias. Si la retención es necesaria, NuLev limitará los datos retenidos a la finalidad correspondiente.</p>
+      <h2>Eliminación desde la app</h2>
+      <p>Si aún puedes acceder a la app móvil, inicia sesión y ve a Perfil &gt; Eliminar cuenta y datos para enviar una solicitud autenticada directamente desde NuLev.</p>
+    `,
+  },
+};
+
+const nulevDocDescriptions = {
+  privacy: {
+    pt: "Política de Privacidade da plataforma NuLev.",
+    en: "Privacy Policy for the NuLev platform.",
+    es: "Política de Privacidad de la plataforma NuLev.",
+  },
+  terms: {
+    pt: "Termos de Uso da plataforma NuLev.",
+    en: "Terms of Use for the NuLev platform.",
+    es: "Términos de Uso de la plataforma NuLev.",
+  },
+  support: {
+    pt: "Suporte da plataforma e app NuLev.",
+    en: "Support for the NuLev platform and app.",
+    es: "Soporte de la plataforma y app NuLev.",
+  },
+  "delete-account": {
+    pt: "Instruções para excluir a conta de paciente no NuLev.",
+    en: "Instructions to delete a patient account in NuLev.",
+    es: "Instrucciones para eliminar una cuenta de paciente en NuLev.",
+  },
+};
+
+const products = {
+  "recibo-facil": {
+    name: "Recibo Fácil MEI",
+    icon: "/assets/recibo-facil-icon.png",
+    hubDescription: legalHub.pt.appDescription,
+    hubDescriptions: {
+      pt: legalHub.pt.appDescription,
+      en: legalHub.en.appDescription,
+      es: legalHub.es.appDescription,
+    },
+    docDescriptions,
+  },
+  nulev: {
+    name: "NuLev",
+    icon: "/assets/nulev-icon.png",
+    hubDescriptions: {
+      pt: "Política de privacidade, termos de uso, suporte e instruções de exclusão de conta para a plataforma e app mobile.",
+      en: "Privacy policy, terms of use, support, and account deletion instructions for the platform and mobile app.",
+      es: "Política de privacidad, términos de uso, soporte e instrucciones para eliminar cuenta de la plataforma y app móvil.",
+    },
+    docDescriptions: nulevDocDescriptions,
+  },
+};
+
+const productDocs = {
+  "recibo-facil": docs,
+  nulev: nulevDocs,
+};
+
+function productBasePath(locale, productKey) {
+  return `${locales[locale].legalPath}${productKey}`;
+}
+
 function stamp(locale, docKey) {
   const meta = locales[locale];
   const label = docKey === "terms" ? meta.updatedTermsLabel : meta.updatedLabel;
@@ -415,14 +709,14 @@ function write(path, content) {
   writeFileSync(absolute, `${content.trim()}\n`, "utf8");
 }
 
-function head({ title, description, alternates = "" }) {
+function head({ title, description, alternates = "", icon = "/assets/recibo-facil-icon.png" }) {
   return `
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>${title}</title>
     <meta name="description" content="${description}">
     ${alternates}
-    <link rel="icon" href="/assets/recibo-facil-icon.png">
+    <link rel="icon" href="${icon}">
     <link rel="stylesheet" href="/styles.css">
   `;
 }
@@ -454,11 +748,11 @@ function footer(locale = "pt") {
   return `<footer class="site-footer">© 2026 Magnus Engineering. ${locales[locale].footer}</footer>`;
 }
 
-function page({ locale = "pt", title, description, body, alternates = "" }) {
+function page({ locale = "pt", title, description, body, alternates = "", icon = "/assets/recibo-facil-icon.png" }) {
   return `<!doctype html>
 <html lang="${locales[locale].htmlLang}">
   <head>
-    ${head({ title, description, alternates })}
+    ${head({ title, description, alternates, icon })}
   </head>
   <body>
     ${header(locale)}
@@ -485,9 +779,9 @@ function landingPage() {
           </div>
           <div class="hero-visual" aria-hidden="true">
             <div class="visual-panel visual-panel-main">
-              <span class="visual-label">Produto ativo</span>
-              <strong>Recibo Fácil MEI</strong>
-              <span>Recibos, clientes, PDFs, assinaturas</span>
+              <span class="visual-label">Produtos ativos</span>
+              <strong>Recibo Fácil MEI · NuLev</strong>
+              <span>Apps, APIs, documentos legais, suporte</span>
             </div>
             <div class="visual-grid">
               <span></span><span></span><span></span><span></span>
@@ -516,14 +810,24 @@ function landingPage() {
             <h2>Apps</h2>
             <p>Produtos em operação ou preparação pública pela Magnus Engineering.</p>
           </div>
-          <article class="app-card">
-            <img src="/assets/recibo-facil-icon.png" alt="">
-            <div>
-              <h3>Recibo Fácil MEI</h3>
-              <p>Aplicativo para criação, armazenamento e compartilhamento de recibos de pagamento.</p>
-              <a href="/legal/">Ver documentos legais</a>
-            </div>
-          </article>
+          <div class="app-stack">
+            <article class="app-card">
+              <img src="/assets/recibo-facil-icon.png" alt="">
+              <div>
+                <h3>Recibo Fácil MEI</h3>
+                <p>Aplicativo para criação, armazenamento e compartilhamento de recibos de pagamento.</p>
+                <a href="/legal/recibo-facil/privacy/">Ver documentos legais</a>
+              </div>
+            </article>
+            <article class="app-card">
+              <img src="/assets/nulev-icon.png" alt="">
+              <div>
+                <h3>NuLev</h3>
+                <p>Plataforma e app mobile para acompanhamento nutricional entre profissionais, clínicas e pacientes.</p>
+                <a href="/legal/nulev/privacy/">Ver documentos legais</a>
+              </div>
+            </article>
+          </div>
         </section>
       </main>
     `,
@@ -541,9 +845,25 @@ function langHubSwitch(locale) {
 function legalHubPage(locale) {
   const meta = locales[locale];
   const hub = legalHub[locale];
-  const links = Object.keys(docLabels)
-    .map((docKey) => `<li><a href="${meta.appPath}/${docKey}/">${docLabels[docKey][locale]}<span aria-hidden="true">›</span></a></li>`)
-    .join("");
+  const productSections = Object.entries(products)
+    .map(([productKey, product]) => {
+      const basePath = productBasePath(locale, productKey);
+      const links = Object.keys(productDocs[productKey])
+        .map((docKey) => `<li><a href="${basePath}/${docKey}/">${docLabels[docKey][locale]}<span aria-hidden="true">›</span></a></li>`)
+        .join("");
+
+      return `
+        <div class="product-summary">
+          <img src="${product.icon}" alt="">
+          <div>
+            <h2>${product.name}</h2>
+            <p>${product.hubDescriptions[locale]}</p>
+          </div>
+        </div>
+        <ul class="link-list">${links}</ul>
+      `.trim();
+    })
+    .join("\n          ");
   const alternates = Object.values(locales)
     .map((item) => `<link rel="alternate" hreflang="${item.htmlLang}" href="${item.legalPath}">`)
     .join("\n    ");
@@ -562,49 +882,43 @@ function legalHubPage(locale) {
           </div>
           <h1>${hub.title}</h1>
           <p class="lead">${hub.lead}</p>
-          <div class="product-summary">
-            <img src="/assets/recibo-facil-icon.png" alt="">
-            <div>
-              <h2>Recibo Fácil MEI</h2>
-              <p>${hub.appDescription}</p>
-            </div>
-          </div>
-          <ul class="link-list">${links}</ul>
+          ${productSections}
         </section>
       </main>
     `,
   });
 }
 
-function langAlternates(docKey, locale) {
+function langAlternates(productKey, docKey, locale) {
   return `<nav class="language-switcher" aria-label="${locales[locale].languageLabel}">
     ${Object.entries(locales)
-      .map(([key, meta]) => `<a href="${meta.appPath}/${docKey}/" hreflang="${meta.htmlLang}"${key === locale ? " aria-current=\"true\"" : ""}>${meta.label}</a>`)
+      .map(([key, meta]) => `<a href="${productBasePath(key, productKey)}/${docKey}/" hreflang="${meta.htmlLang}"${key === locale ? " aria-current=\"true\"" : ""}>${meta.label}</a>`)
       .join("")}
   </nav>`;
 }
 
-function docPage(locale, docKey) {
-  const meta = locales[locale];
+function docPage(locale, productKey, docKey) {
+  const product = products[productKey];
   const title = docLabels[docKey][locale];
-  const alternates = Object.values(locales)
-    .map((item) => `<link rel="alternate" hreflang="${item.htmlLang}" href="${item.appPath}/${docKey}/">`)
+  const alternates = Object.entries(locales)
+    .map(([alternateLocale, item]) => `<link rel="alternate" hreflang="${item.htmlLang}" href="${productBasePath(alternateLocale, productKey)}/${docKey}/">`)
     .join("\n    ");
 
   return page({
     locale,
-    title: `${title} | Recibo Fácil MEI`,
-    description: docDescriptions[docKey][locale],
+    title: `${title} | ${product.name}`,
+    description: product.docDescriptions[docKey][locale],
     alternates,
+    icon: product.icon,
     body: `
       <main class="page">
         <article class="document">
           <div class="doc-topline">
-            <p class="section-label">Recibo Fácil MEI</p>
-            ${langAlternates(docKey, locale)}
+            <p class="section-label">${product.name}</p>
+            ${langAlternates(productKey, docKey, locale)}
           </div>
           <h1>${title}</h1>
-          ${docs[docKey][locale]}
+          ${productDocs[productKey][docKey][locale]}
         </article>
       </main>
     `,
@@ -634,8 +948,10 @@ write("legal/en/index.html", legalHubPage("en"));
 write("legal/es/index.html", legalHubPage("es"));
 write("404.html", notFoundPage());
 
-for (const docKey of Object.keys(docs)) {
-  write(`legal/recibo-facil/${docKey}/index.html`, docPage("pt", docKey));
-  write(`legal/en/recibo-facil/${docKey}/index.html`, docPage("en", docKey));
-  write(`legal/es/recibo-facil/${docKey}/index.html`, docPage("es", docKey));
+for (const [productKey, productDocSet] of Object.entries(productDocs)) {
+  for (const docKey of Object.keys(productDocSet)) {
+    write(`legal/${productKey}/${docKey}/index.html`, docPage("pt", productKey, docKey));
+    write(`legal/en/${productKey}/${docKey}/index.html`, docPage("en", productKey, docKey));
+    write(`legal/es/${productKey}/${docKey}/index.html`, docPage("es", productKey, docKey));
+  }
 }

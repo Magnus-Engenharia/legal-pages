@@ -314,6 +314,11 @@ li {
   padding: 24px;
 }
 
+.app-stack {
+  display: grid;
+  gap: 16px;
+}
+
 .app-card img,
 .product-summary img {
   border-radius: 8px;
