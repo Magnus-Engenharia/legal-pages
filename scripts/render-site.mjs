@@ -427,7 +427,7 @@ const nulevDocs = {
       <p>O app mobile pede acesso à biblioteca de fotos somente quando o paciente escolhe enviar uma foto de progresso ou imagem em resposta de acompanhamento. A imagem selecionada é enviada ao backend NuLev para o fluxo de cuidado. A versão mobile atual não usa câmera, microfone, contatos, localização, ID de publicidade ou rastreamento entre apps.</p>
       <h2>Segurança</h2>
       <p>A comunicação de produção usa HTTPS, sessões exigem autenticação e tokens são armazenados em armazenamento seguro do dispositivo quando disponível. Nenhuma medida é absoluta, mas o serviço é projetado para limitar acesso a usuários autorizados e operadores necessários.</p>
-      <h2>Retenção e exclusão</h2>
+      <h2 id="choices">Retenção e exclusão</h2>
       <p>Dados de conta são mantidos durante a vigência da conta e pelo período necessário para cumprir obrigações legais, fiscais, profissionais, contratuais e de segurança. Dados clínicos podem ser preservados pelo período exigido pelas normas profissionais e legais aplicáveis, com anonimização quando a exclusão direta não for possível.</p>
       <h2>Direitos do titular</h2>
       <p>O titular pode solicitar confirmação de tratamento, acesso, correção, portabilidade, informação sobre compartilhamento, revogação de consentimento, anonimização, bloqueio ou eliminação quando cabível. Solicitações podem ser feitas pelo app, pelo painel autenticado ou por <a href="mailto:suporte@nulev.com.br">suporte@nulev.com.br</a>.</p>
@@ -456,7 +456,7 @@ const nulevDocs = {
       <p>The mobile app asks for photo library access only when the patient chooses to upload a progress photo or image answer. The selected image is sent to the NuLev backend for the care workflow. The current mobile app does not use device location, contacts, microphone, camera capture, advertising ID, or cross-app advertising tracking.</p>
       <h2>Security</h2>
       <p>Production network communication uses HTTPS. Session tokens are stored in secure device storage when available. Access to patient data requires authentication. No measure can guarantee absolute security, but the service is designed to limit access to authorized users and providers.</p>
-      <h2>Retention and deletion</h2>
+      <h2 id="choices">Retention and deletion</h2>
       <p>Account and contact data is retained while the account is active and for up to 30 days after an authenticated deletion request before direct identifiers are removed, unless legal, contractual, security, or professional record obligations require a longer period. Clinical and nutrition records may be retained for the professional or legal record period applicable to the responsible clinic and then deleted or anonymized.</p>
       <h2>User rights</h2>
       <p>Patients and platform users can request access, correction, export, or deletion by contacting <a href="mailto:suporte@nulev.com.br">suporte@nulev.com.br</a>, using the authenticated in-app account deletion request flow, or visiting the account deletion page.</p>
@@ -485,7 +485,7 @@ const nulevDocs = {
       <p>La app móvil solicita acceso a la biblioteca de fotos solo cuando el paciente elige subir una foto de progreso o imagen de respuesta. La imagen seleccionada se envía al backend NuLev para el flujo de cuidado. La versión móvil actual no usa ubicación, contactos, micrófono, cámara, ID de publicidad ni rastreo publicitario entre apps.</p>
       <h2>Seguridad</h2>
       <p>La comunicación de producción usa HTTPS, las sesiones requieren autenticación y los tokens se almacenan en almacenamiento seguro del dispositivo cuando está disponible. Ninguna medida es absoluta, pero el servicio está diseñado para limitar el acceso a usuarios y operadores autorizados.</p>
-      <h2>Retención y eliminación</h2>
+      <h2 id="choices">Retención y eliminación</h2>
       <p>Los datos de cuenta se mantienen mientras la cuenta esté activa y hasta 30 días después de una solicitud autenticada de eliminación antes de retirar identificadores directos, salvo que una obligación legal, contractual, de seguridad o profesional exija un período mayor. Los registros clínicos y nutricionales pueden conservarse por el período profesional o legal aplicable a la clínica responsable y luego eliminarse o anonimizarse.</p>
       <h2>Derechos del usuario</h2>
       <p>Pacientes y usuarios pueden solicitar acceso, corrección, exportación o eliminación contactando <a href="mailto:suporte@nulev.com.br">suporte@nulev.com.br</a>, usando el flujo autenticado de eliminación en la app o visitando la página de eliminación de cuenta.</p>
