@@ -1,15 +1,22 @@
-# Magnus Engineering Legal Pages
+# Magnus Engineering Website
 
-Static legal pages for Magnus Engineering apps, designed to deploy on Cloudflare Pages.
+Static landing page and legal pages for Magnus Engineering apps, designed to deploy on Cloudflare Pages.
 
 ## Public URLs
 
 Recommended production URLs:
 
+- `https://magnusengineering.tech/`
+- `https://magnusengineering.tech/legal/`
 - `https://magnusengineering.tech/legal/recibo-facil/privacy/`
 - `https://magnusengineering.tech/legal/recibo-facil/terms/`
 - `https://magnusengineering.tech/legal/recibo-facil/support/`
 - `https://magnusengineering.tech/legal/recibo-facil/delete-account/`
+
+Portuguese Brazilian is the default language for legal documents. English and Spanish are available at:
+
+- `https://magnusengineering.tech/legal/en/`
+- `https://magnusengineering.tech/legal/es/`
 
 Short redirects are included for:
 
@@ -40,6 +47,12 @@ If Cloudflare reports conflicting DNS records for `@` or `www`, remove only the 
 
 ## Editing
 
-Each page is plain HTML and shares `styles.css`.
+Pages are generated from `scripts/render-site.mjs` and share `styles.css`.
+
+After editing copy or document structure, run:
+
+```sh
+node scripts/render-site.mjs
+```
 
 Before submitting app store metadata, confirm that all support and privacy contact emails are active.
