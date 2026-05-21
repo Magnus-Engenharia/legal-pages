@@ -422,6 +422,7 @@ function head({ title, description, alternates = "" }) {
     <title>${title}</title>
     <meta name="description" content="${description}">
     ${alternates}
+    <link rel="icon" href="/assets/recibo-facil-icon.png">
     <link rel="stylesheet" href="/styles.css">
   `;
 }
